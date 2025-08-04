@@ -1,0 +1,408 @@
+## 0. IMPORTANT DISTINCTION: TAOFU vs TPN
+
+**CRITICAL: These are TWO DIFFERENT THINGS:**
+
+### TAOFU (The Platform)
+- **What**: A launchpad and tokenization platform for ALL Bittensor subnets
+- **Purpose**: Helps subnet owners raise funds by tokenizing emissions (SNS)
+- **Users**: Subnet owners wanting to raise capital, investors wanting to buy SNS
+- **Technology needed**: Just a web browser and TAO tokens to participate
+- **No coding required**: It's a web platform like any other launchpad
+
+### TPN (A Subnet Using Taofu)
+- **What**: Subnet 65 - a decentralized VPN infrastructure
+- **Purpose**: Provides VPN services through distributed miners
+- **Users**: VPN users, miners providing bandwidth, developers building VPN apps
+- **Technology needed**: Linux servers, Python, Docker, technical knowledge for mining
+- **Coding required**: Yes, for mining/validating
+
+### Key Clarification
+- **Same team**: Yes, both are developed by Taofu Labs
+- **Same thing**: NO! Taofu is the platform, TPN is just ONE subnet that might use Taofu
+- **Relationship**: TPN is a showcase/example of a subnet that could potentially use Taofu's services
+
+### When Someone Asks About:
+- "Using Taofu" → Web platform, buying SNS tokens, no technical setup
+- "Mining on Taofu" → WRONG! You don't mine on Taofu, you mine on subnets like TPN
+- "TPN requirements" → Technical Linux/Python setup for mining
+- "Investing through Taofu" → Buying SNS tokens with TAO through the web platform
+
+## 1. WHAT IS TAOFU
+
+Taofu is a groundbreaking platform that empowers Bittensor subnet teams to raise capital and decentralize control by issuing Subnet Seeds (SNS). Taofu solves a critical challenge in the Bittensor ecosystem: subnet owners previously had to sell their alpha token emissions to secure runway, which drained TAO liquidity from their subnet pools and undermined long-term growth.
+
+Taofu provides:
+- Subnet Launchpad services for tokenization
+- Governance infrastructure for subnet emissions
+- A sustainable funding model that preserves subnet liquidity
+
+The platform enables subnet owners to secure funding without depleting their initial alpha token reserves, while contributors gain governance rights and participate in the subnet's growth.
+
+**What Taofu is NOT**:
+- Not a subnet itself (it's a platform for ALL subnets)
+- Not a mining operation (it's a web-based launchpad)
+- Not TPN (TPN is a separate VPN subnet project)
+- Not requiring technical setup (just web browser + TAO)
+
+**Relationship with TPN**: TPN (TAO Private Network) is Subnet 65, a decentralized VPN infrastructure project developed by the same team. It serves as both a standalone subnet and a potential future user of Taofu's tokenization services.
+
+## 2. KEY CONCEPTS
+
+### Subnet Seeds (SNS)
+- Tradable tokens representing tokenized subnet emissions
+- Grant holders governance rights over subnet decisions
+- Allow subnet owners to raise capital without selling alpha tokens
+- Maintain subnet liquidity while providing funding
+
+### dTAO System
+- Bittensor's new economic model with subnet-specific liquidity pools
+- Each subnet has its own alpha tokens
+- 1 TAO emitted per block network-wide
+- 2 alpha tokens generated per subnet per block
+
+### Alpha Token Streams
+- **alpha_in**: 0-1 alpha per block, flows into subnet's liquidity pool
+- **alpha_out**: 1 alpha per block, distributed as rewards:
+  - 18% to subnet owners
+  - 41% to miners
+  - 41% to validators
+
+### The Growth vs. Liquidity Dilemma
+- Subnet owners need TAO for runway
+- Selling alpha tokens drains subnet liquidity pools
+- Less liquidity means fewer future emissions
+- Taofu solves this by allowing tokenization instead of selling
+
+## 2.5. BITTENSOR BASICS
+
+### What is Bittensor?
+- Open-source platform for decentralized machine intelligence
+- Network of specialized subnets producing digital commodities
+- Uses TAO token as native currency
+- Validators evaluate miners' work quality
+
+### Network Participants
+- **Miners**: Produce digital commodities (AI, compute, storage, etc.)
+- **Validators**: Evaluate miner quality and set weights
+- **Subnet Creators**: Design incentive mechanisms
+- **Stakers**: Support validators by staking TAO
+
+### Subnet Structure
+- Each subnet = independent community with specific task
+- Typically 256 neurons (64 validator slots, rest for miners)
+- Subnets compete for TAO emissions
+- Each subnet has unique netuid (network ID)
+
+## 3. HOW TAOFU WORKS
+
+### Step 1: Tokenization
+- Subnets tokenize their owner key to create Subnet Seeds (SNS)
+- Subnet owners retain full admin control over their subnet
+- SNS represent future alpha_out emissions
+
+### Step 2: Launch
+- SNS tokens are launched on Taofu's curated launchpad
+- Contributors purchase SNS with TAO
+- All purchases are made in TAO only
+
+### Step 3: Governance
+- SNS holders participate in subnet governance decisions
+- Creates a decentralized and engaged community
+- Aligns interests of subnet owners, validators, and token holders
+
+## 4. TOKENOMICS & FEES
+
+### TAOFU Token
+- Native governance and utility token of the Taofu ecosystem
+- Protocol fees from SNS sales accrue to Taofu treasury
+- TAOFU holders receive:
+  - Priority access to launchpad sales
+  - Early investment opportunities
+  - Increased allocation limits
+  - Voting rights on protocol parameters
+
+### Fee Structure
+- Protocol fee collected on every SNS token sale
+- Fees denominated in subnet's tokenized emissions
+- Future staking mechanisms may allow revenue sharing
+
+## 5. PARTICIPATION & SALES PROCESS
+
+### Whitelisting
+- Users register on Taofu platform
+- Sign terms and conditions
+- Submit wallet address for verification
+- Approved addresses recorded on-chain
+- Individual purchase caps enforced
+
+### Purchase Process
+- TAO-only purchases (no other currencies accepted)
+- Direct deposit into sale contract
+- Individual caps per wallet
+- No active Sybil attack prevention
+
+### Vesting Schedules
+- Uniform vesting rules for all participants
+- Linear vesting schedule for SNS tokens
+- Initial lock-up periods followed by gradual release
+- Subnet owners, curators, and Taofu follow same schedule
+
+## 6. TECHNICAL INTEGRATION
+
+### Platform Features
+- Curated platform with rigorous subnet vetting
+- Evaluation of tokenomics, technical roadmaps, team credibility
+- Mandatory vesting schedules for founders
+- Liquidity provisions for market stability
+
+### Bittensor Integration
+- Deep integration with Bittensor infrastructure
+- SNS tokens can grant governance rights
+- Aligns interests across the ecosystem
+
+## 7. BENEFITS & USE CASES
+
+### For Subnet Owners
+- Secure sustainable funding without selling alpha tokens
+- Maintain subnet liquidity for future growth
+- Attract talent and innovation
+- Decentralize governance
+
+### For Investors
+- Access diversified portfolio of AI-driven subnets
+- Liquid, tradable assets (SNS tokens)
+- Governance participation rights
+- Exposure to Bittensor ecosystem growth
+
+### For Bittensor Network
+- Enhanced subnet liquidity
+- Reduced sell-side pressure
+- More robust, incentive-aligned ecosystem
+- Sustainable subnet development
+
+## 8. FUTURE DEFI STRATEGIES
+
+### Potential SNS Use Cases
+- **Collateralization**: Use SNS as collateral for loans
+- **Yield Farming**: Stake SNS in liquidity pools
+- **Derivatives**: Futures or options tied to subnet emissions
+- **Index Funds**: Bundle multiple SNS tokens for diversified exposure
+
+## 9. TPN SUBNET (SUBNET 65) - EXAMPLE PROJECT
+
+**IMPORTANT**: TPN is NOT Taofu. It's a separate subnet project by the same team that showcases what can be built in the Bittensor ecosystem.
+
+### Overview
+TPN (TAO Private Network) is a subnet-powered decentralized VPN infrastructure operating as Subnet 65 on mainnet (Subnet 279 on testnet). It's designed to be "the AWS of decentralized VPNs" - a protocol that developers can build upon to create their own VPN applications.
+
+**Relationship to Taofu**: TPN is developed by Taofu Labs but is a SEPARATE project. It could potentially use Taofu's platform to tokenize its emissions in the future, but they are distinct products.
+
+### Current Status
+- **Phase**: Beta mode (VPN scaffolding present, consumer endpoints coming soon)
+- **Mac App**: Available in beta for free to showcase decentralized VPN capabilities
+- **Network**: Globally distributed network of miner nodes
+- **Documentation**: Work in public alpha (expect changes)
+
+### Development Roadmap (V0-V4)
+
+**V0 - Bootstrap Phase (Current)**
+- Deploy globally distributed miner network
+- Validators issue challenge/response tests
+- Reward miners for uptime, correct responses, unique geo-locations
+- No end-user traffic served yet - testing and hardening phase
+
+**V1 - Simple Proxy Services**
+- Basic HTTP/HTTPS proxy functionality
+- Traffic routing through miners without full VPN
+
+**V2 - Advanced Proxy Features**
+- Enhanced proxy capabilities
+- Better performance and reliability
+
+**V3 - Full VPN Implementation**
+- Actual VPN tunnels through miners
+- Encrypted connections to miner nodes
+- Standard VPN service functionality
+- Features like IP rotation every 5 minutes
+- Multi-country cycling capabilities
+
+**V4 - Consumer Accessibility**
+- Simplified user experience
+- One-click VPN connections
+- Partnerships and integrations
+- Broad consumer adoption
+
+### For Miners
+
+**Requirements**:
+- Ubuntu 22.04 or compatible Linux
+- Python 3.8 or higher
+- Dedicated server or VPS (NOT container-based like Runpod/Vast AI)
+- Unique geographic location (rewards based on location uniqueness)
+- Some TAO for registration
+
+**Basic Setup**:
+1. Install dependencies (Docker, Node.js, PM2, WireGuard)
+2. Clone TPN repository from GitHub
+3. Create Bittensor wallet (coldkey and hotkey)
+4. Register on subnet: `btcli s register --netuid 65`
+5. Run miner with proper configuration
+6. Keep updated with regular maintenance
+
+**Rewards**: Based on uptime, correct responses, and geographic uniqueness
+
+### For Validators
+
+**Requirements**:
+- More complex setup than miners
+- WandB API key for monitoring
+- Public IP with accessible port
+- Higher technical requirements
+
+**Responsibilities**:
+- Interface between end users and miners
+- Send work requests to miners
+- Evaluate miner performance
+- Set weights on-chain each epoch
+
+### For Developers
+
+**Build on TPN**:
+- Use TPN as infrastructure for your VPN app
+- Access globally distributed network
+- Protocol-level integration
+- Think of it as AWS for VPNs
+
+### Technical Details
+
+**GitHub Repositories**:
+- Main: github.com/taofu-labs/tpn-subnet
+- Alternative: github.com/beyond-stake/tpn-subnet
+
+**Network Parameters**:
+- Mainnet: Netuid 65, Finney network
+- Testnet: Netuid 279, Test network
+- Axon port: 8091 (default for miners)
+
+**Update Commands**:
+- Miners: `bash scripts/update_miner.sh`
+- Validators: `bash scripts/update_validator.sh`
+
+### Token Information
+- TPN has a subnet token: SN65
+- Tradeable on decentralized exchanges
+- Part of the dTAO ecosystem
+- Market data available on CoinGecko and other platforms
+
+## 10. RISK CONSIDERATIONS
+
+### Conservative Approach
+- SNS ownership is more conservative than direct subnet participation
+- Provides exposure without technical complexity
+- Allows diversification across multiple subnets
+
+### Important Notes
+- All investments carry risk
+- Subnet success depends on team execution
+- Market conditions affect token values
+- Always DYOR (Do Your Own Research)
+
+## 11. GETTING STARTED
+
+### For Taofu Platform Users
+
+**As a Subnet Owner:**
+1. Apply for launchpad listing at taofu.xyz
+2. Pass vetting process (no coding required)
+3. Tokenize subnet emissions
+4. Launch SNS sale
+
+**As an Investor/Contributor:**
+1. Visit taofu.xyz (web browser only)
+2. Register and complete KYC/whitelisting
+3. Have TAO in your wallet
+4. Participate in SNS sales when live
+5. NO technical setup needed!
+
+### For TPN Subnet Participants (DIFFERENT from Taofu!)
+
+**As a TPN Miner:**
+1. Set up Ubuntu 22.04 Linux server
+2. Install Python, Docker, WireGuard
+3. Clone GitHub repository
+4. Create Bittensor wallet
+5. Register on subnet 65
+6. Run miner software
+7. Maintain and update regularly
+8. REQUIRES technical knowledge!
+
+**As a TPN User:**
+1. Download TPN Mac app (beta)
+2. Use as regular VPN service
+3. No mining knowledge needed
+
+**REMEMBER**: Using Taofu ≠ Mining on TPN. They are separate products!
+
+## 12. RESOURCES & LINKS
+
+### Taofu Resources
+- Main Website: https://taofu.xyz
+- Documentation: https://docs.taofu.xyz
+- Twitter: @taofu (2000+ followers)
+- Launchpad: https://launchpad.taofu.xyz (when live)
+
+### TPN Resources
+- TPN Website: https://tpn.taofu.xyz
+- TPN Mac App: Available on tpn.taofu.xyz (beta)
+- GitHub (Main): https://github.com/taofu-labs/tpn-subnet
+- GitHub (Alt): https://github.com/beyond-stake/tpn-subnet
+- Subnet: #65 on Bittensor mainnet
+
+### General Bittensor Resources
+- Bittensor Docs: https://docs.bittensor.com
+- TAO Stats: https://taostats.io
+- Subnet Explorer: https://tao.app
+
+## 13. COMMON QUESTIONS
+
+**Q: What's the difference between Taofu and TPN?**
+A: Taofu is a launchpad platform for tokenizing subnet emissions. TPN is Subnet 65, a decentralized VPN project. Same team, different products. You don't need technical skills to use Taofu, but you do need them to mine on TPN.
+
+**Q: How do I use Taofu?**
+A: Simply visit taofu.xyz, complete whitelisting when a sale is live, and purchase SNS tokens with TAO. No technical setup required - it's a web platform.
+
+**Q: Can I mine on Taofu?**
+A: No, you don't mine on Taofu. Taofu is a launchpad platform. If you want to mine, you would mine on specific subnets like TPN (Subnet 65), which requires technical setup.
+
+**Q: What technology do I need for Taofu?**
+A: Just a web browser and a wallet with TAO tokens. Taofu is a web-based platform, not a mining operation.
+
+**Q: What problem does Taofu solve?**
+A: Taofu solves the "Growth vs. Liquidity" dilemma where subnet owners had to sell alpha tokens for runway, which drained their subnet's liquidity pool and reduced future emissions.
+
+**Q: How do Subnet Seeds (SNS) work?**
+A: SNS are tokenized subnet emissions that can be sold to raise capital without draining the subnet's liquidity pool. Holders get governance rights.
+
+**Q: What currency is used for purchases?**
+A: All SNS purchases are made exclusively in TAO.
+
+**Q: Who can participate?**
+A: Anyone who completes the whitelisting process and has TAO can participate in SNS sales.
+
+**Q: Is there a minimum investment?**
+A: Individual caps are set per sale. Check the specific sale details on the platform.
+
+**Q: What is TPN?**
+A: TPN (TAO Private Network) is Subnet 65, a decentralized VPN infrastructure where miners provide bandwidth and earn rewards. It's currently in beta with a Mac app available.
+
+**Q: How can I mine on TPN?**
+A: You need Ubuntu 22.04, Python 3.8+, some TAO for registration, and a unique geographic location. Follow the setup guide on the TPN GitHub repository.
+
+**Q: What's the TPN development roadmap?**
+A: TPN has 5 phases (V0-V4): from bootstrap testing (current) to simple proxy, advanced proxy, full VPN, and finally consumer-ready applications.
+
+**Q: Can I build on top of TPN?**
+A: Yes! TPN is designed as "the AWS of decentralized VPNs" - developers can build their own VPN applications using TPN infrastructure.
+
+**Q: When will sales launch?**
+A: Check taofu.xyz and official announcements for the latest sale schedules.
