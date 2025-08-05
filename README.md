@@ -259,4 +259,4 @@ After successful MVP launch:
 
 ---
 
-**Built for the Taofu ecosystem** - Visit [taofu.xyz](https://taofu.xyz) for more information! 
+**Built for the Taofu ecosystem** - Visit [taofu.xyz](https://taofu.xyz) for more information! # Updated for Railway deployment
